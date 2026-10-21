@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.42.0.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 5hcc lenovo, cc, LIC=21E4T-R7YN9-129LE-59A8L-WQZ67-3S0RA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.42.0.0
+Toolchain Path:  D:\KEIL C51\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.42.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+D:\KEIL C51\HAL\FreeRtos\H750_freertos_LVGL_Audio\project\MDK-ARM\project.uvprojx
+Project File Date:  10/15/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\KEIL C51\ARM\ARMCC\Bin'
+Build target 'project'
+compiling main.c...
+../BSP/retarget.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/KEY\key.h(28): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/KEY\task_key.h(9): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/LCD\lcd.h(75): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/I2C/myi2c.h(26): warning:  #1295-D: Deprecated declaration i2c_init - give arg types
+  void i2c_init();
+../BSP/I2C/myi2c.h(35): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/ES8388\es8388.h(9): warning:  #1295-D: Deprecated declaration es8388_i2c_tset - give arg types
+  void es8388_i2c_tset();
+../BSP/ES8388\es8388.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/PCF8574\pcf8574.h(18): warning:  #1295-D: Deprecated declaration pcf8574_i2c_test - give arg types
+  void pcf8574_i2c_test();
+../BSP/PCF8574\pcf8574.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/AUDIO/audio_source.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif /* __AUDIO_SOURCE_H */
+../BSP/SAI\sai_audio.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+../BSP/AUDIO/audio_src_flash.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Src/main.c(127): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOB, 
+PIO_PIN_1, 1);
+../Core/Src/main.c(129): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOB, 
+PIO_PIN_1, 0);
+../Core/Src/main.c(139): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(
+PIOB, 
+PIO_PIN_0, 1);
+../Core/Src/main.c(141): warning:  #188-D: enumerated type mixed with another type
+  		HAL_GPIO_WritePin(
+PIOB, 
+PIO_PIN_0, 0);
+../Core/Src/main.c: 17 warnings, 0 errors
+linking...
+Program Size: Code=157520 RO-data=15984 RW-data=536 ZI-data=302104  
+FromELF: creating hex file...
+"project\project.axf" - 0 Error(s), 17 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.1.3.pack
+                Keil::STM32H7xx_DFP@4.1.3
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_project
+  D:/KEIL C51/ARM/PACK/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
