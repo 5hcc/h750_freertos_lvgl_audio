@@ -1,2 +1,6 @@
-MDK-ARM/*.log
-MDK-ARM/*.txt
+QSPIBootloader/MDK-ARM/*.log
+QSPIBootloader/MDK-ARM/*.txt
+
+project/MDK-ARM/*.log
+project/MDK-ARM/*.txt
+
